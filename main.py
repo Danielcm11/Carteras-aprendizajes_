@@ -1,7 +1,7 @@
-import models.inversores as inversores
+from models.inversor import Inversor
 if __name__ == '__main__':
-    print(inversores.patata)
-    print(inversores.variable)
-
-
-
+    nombre = None
+    apellidos = None
+    yo = Inversor(nombre = 'Daniel',apellido = '')
+    print(yo.nombre)
+    print(yo.apellido)

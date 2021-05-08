@@ -1,16 +1,7 @@
 class Inversor:
     nombre = None
     apellidos = None
-    cartera = None
-    def retirar_fondo(self):
-        pass
 
-
-
-
-
-
-
-
-
-
+    def __init__(self, nombre, apellido):
+        self.nombre = nombre
+        self.apellido = apellido
